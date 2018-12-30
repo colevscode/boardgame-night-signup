@@ -73,6 +73,7 @@ export default class Survey extends React.Component {
             />
           </div>
         </label>
+        <div>Thanks!</div>
         <input type="submit" />
       </form>
     );

@@ -1,6 +1,6 @@
 @import "reset.scss";
 @import "variables.scss";
-
-body {
-  color: $color-primary;
-}
+@import "type.scss";
+@import "layout.scss";
+@import "StretchyInput.scss";
+@import "form.scss";

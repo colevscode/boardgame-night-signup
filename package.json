@@ -31,6 +31,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "detect-browser": "^3.0.1",
+    "prettier": "^1.15.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },

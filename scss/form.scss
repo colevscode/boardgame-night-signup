@@ -1,0 +1,68 @@
+form {
+  line-height: 2.5;
+  position: relative;
+
+  .underlined {
+    border-bottom: 1px solid !important;
+    text-align: left;
+  }
+
+  label {
+    display: block;
+    width: 100%;
+  }
+
+  .left {
+    display: inline-block;
+    float: left;
+  }
+  .right {
+    overflow: hidden;
+    width: auto;
+  }
+
+  select {
+    color: $type-color;
+    outline: none;
+    font-size: 1em;
+    padding: 0 15px 1.5px;
+    border: none;
+    appearance: none;
+    white-space: pre-wrap;
+  }
+
+  input.survey {
+    outline: none;
+    line-height: 1.2;
+    border: none;
+    font-size: 1em;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    width: 100%;
+    &.block {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  select.survey {
+    line-height: 1.2;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    padding: 0.4em 1.5em 0.5em;
+    border: 2px solid darken($primary-color, 10%);
+    color: darken($primary-color, 10%);
+    cursor: pointer;
+
+    background: transparent;
+    outline: none;
+    font-size: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    margin: 1em 0 0 0;
+  }
+}

@@ -3,17 +3,18 @@ image: node:11.6
 pages:
   cache:
     paths:
-    - node_modules/
+      - node_modules/
 
   script:
-  - npm install
-  - npm run build:prod
-  - mkdir public
-  - cp -r build public
-  - cp index.html public
+    - npm install
+    - npm run build:prod
+    - mkdir public
+    - cp -r build public
+    - cp -r img public
+    - cp index.html public
 
   artifacts:
     paths:
-    - public
+      - public
   only:
     - master

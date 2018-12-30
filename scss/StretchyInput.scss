@@ -1,0 +1,51 @@
+.StretchyInput {
+  position: relative;
+
+  span.input {
+    outline: none;
+    line-height: 1;
+    white-space: pre;
+    position: absolute;
+    top: 0.2em;
+  }
+
+  span.input.flipped {
+    white-space: normal;
+    position: relative;
+    top: 0em;
+  }
+
+  span.trailing {
+    white-space: pre;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  span.trailing.flipped {
+    position: relative;
+  }
+
+  span.label {
+    position: relative;
+    font-size: 0.6em;
+    // top: 1.92em;
+    pointer-events: none;
+    // word-wrap: none;
+    white-space: pre;
+  }
+
+  span.label.flipped {
+    position: absolute;
+    top: 2.2em;
+  }
+
+  // span.label.flipped.wrapped {
+  //   display: block;
+  //   top: 6.2em;
+  // }
+
+  input {
+    display: none;
+  }
+}
